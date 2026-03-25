@@ -21,6 +21,7 @@ const IDOLS = [
     typicalAge: 28,
     emoji: '👑',
     bgGradient: 'linear-gradient(135deg, #ff2d78, #a855f7)',
+    wikiTitle: 'Jennie_(rapper)',
     description: 'Known for her bold charisma, luxe fashion sense, and effortlessly cool stage presence.',
     descriptionKr: '대담한 카리스마와 럭셔리한 패션 센스로 유명한 솔로이스트.',
     traits: ['Bold', 'Charismatic', 'Fashion Icon', 'Fierce'],
@@ -37,6 +38,7 @@ const IDOLS = [
     typicalAge: 27,
     emoji: '💎',
     bgGradient: 'linear-gradient(135deg, #f59e0b, #ec4899)',
+    wikiTitle: 'Lisa_(rapper)',
     description: 'Main dancer with exotic features, expressive performances, and an infectious smile.',
     descriptionKr: '이국적인 외모와 폭발적인 댄스 실력을 가진 메인댄서.',
     traits: ['Energetic', 'Playful', 'Expressive', 'Dancer'],
@@ -53,6 +55,7 @@ const IDOLS = [
     typicalAge: 29,
     emoji: '🌸',
     bgGradient: 'linear-gradient(135deg, #f472b6, #fbbf24)',
+    wikiTitle: 'Jisoo_(singer)',
     description: 'Classic Korean beauty with a warm, bright smile and natural elegance.',
     descriptionKr: '클래식한 한국적 미모와 따뜻한 미소를 가진 비주얼 담당.',
     traits: ['Classic Beauty', 'Warm', 'Elegant', 'Natural'],
@@ -69,6 +72,7 @@ const IDOLS = [
     typicalAge: 27,
     emoji: '🌹',
     bgGradient: 'linear-gradient(135deg, #fb7185, #a78bfa)',
+    wikiTitle: 'Rosé_(singer)',
     description: 'Ethereal visuals, slender figure, and a uniquely emotional vocal tone.',
     descriptionKr: '몽환적인 비주얼과 독특한 음색을 가진 보컬리스트.',
     traits: ['Ethereal', 'Emotional', 'Artistic', 'Graceful'],
@@ -86,6 +90,7 @@ const IDOLS = [
     typicalAge: 24,
     emoji: '🤖',
     bgGradient: 'linear-gradient(135deg, #a855f7, #22d3ee)',
+    wikiTitle: 'Karina_(singer)',
     description: 'Sharp, doll-like features with a powerful stage command and polished visuals.',
     descriptionKr: '인형 같은 외모와 강력한 무대 장악력을 가진 센터.',
     traits: ['Sharp', 'Polished', 'Powerful', 'Doll-Like'],
@@ -102,6 +107,7 @@ const IDOLS = [
     typicalAge: 23,
     emoji: '❄️',
     bgGradient: 'linear-gradient(135deg, #60a5fa, #a5f3fc)',
+    wikiTitle: 'Winter_(singer)',
     description: 'Icy, pale beauty with soft features and a cool, reserved charm.',
     descriptionKr: '청초하고 차가운 매력의 아이시한 비주얼.',
     traits: ['Cool', 'Pure', 'Soft', 'Reserved'],
@@ -118,6 +124,7 @@ const IDOLS = [
     typicalAge: 21,
     emoji: '🌟',
     bgGradient: 'linear-gradient(135deg, #fbbf24, #f472b6)',
+    wikiTitle: 'Ningning_(singer)',
     description: 'Expressive eyes, bright smile, and powerful vocal performances.',
     descriptionKr: '표현력 넘치는 눈매와 밝은 미소의 파워풀한 보컬.',
     traits: ['Bright', 'Expressive', 'Powerful', 'Cheerful'],
@@ -135,6 +142,7 @@ const IDOLS = [
     typicalAge: 20,
     emoji: '🐰',
     bgGradient: 'linear-gradient(135deg, #22d3ee, #818cf8)',
+    wikiTitle: 'Minji_(singer)',
     description: 'Tall, distinguished features with a mature yet fresh, youthful vibe.',
     descriptionKr: '성숙하면서도 청량한 매력을 가진 리더.',
     traits: ['Mature', 'Fresh', 'Elegant', 'Leader'],
@@ -151,6 +159,7 @@ const IDOLS = [
     typicalAge: 20,
     emoji: '🐱',
     bgGradient: 'linear-gradient(135deg, #f0abfc, #818cf8)',
+    wikiTitle: 'Hanni_(singer)',
     description: 'Cat-like eyes, bubbly personality, and a uniquely charming mixed look.',
     descriptionKr: '고양이 같은 눈매와 밝고 사랑스러운 매력의 멤버.',
     traits: ['Cute', 'Bubbly', 'Cat-Like', 'Charming'],
@@ -168,6 +177,7 @@ const IDOLS = [
     typicalAge: 20,
     emoji: '👸',
     bgGradient: 'linear-gradient(135deg, #fbbf24, #f472b6)',
+    wikiTitle: 'Jang_Won-young',
     description: 'Statuesque proportions, princess-like visuals, and effortless poise.',
     descriptionKr: '완벽한 비율과 공주 같은 외모를 가진 센터.',
     traits: ['Princess', 'Tall', 'Poised', 'Visual'],
@@ -184,6 +194,7 @@ const IDOLS = [
     typicalAge: 19,
     emoji: '🦋',
     bgGradient: 'linear-gradient(135deg, #6366f1, #ec4899)',
+    wikiTitle: 'Rei_(singer)',
     description: 'Delicate features, playful energy, and a bright expressive personality.',
     descriptionKr: '섬세한 외모와 발랄한 에너지의 일본인 멤버.',
     traits: ['Delicate', 'Playful', 'Bright', 'Sweet'],
@@ -201,6 +212,7 @@ const IDOLS = [
     typicalAge: 25,
     emoji: '🎤',
     bgGradient: 'linear-gradient(135deg, #f59e0b, #ef4444)',
+    wikiTitle: 'Jeon_Soyeon',
     description: 'Fierce, intense gaze with an artist\'s confidence and powerful rapping energy.',
     descriptionKr: '강렬한 눈빛과 아티스트적 자신감을 가진 래퍼.',
     traits: ['Fierce', 'Intense', 'Artistic', 'Confident'],
@@ -218,6 +230,7 @@ const IDOLS = [
     typicalAge: 25,
     emoji: '🎀',
     bgGradient: 'linear-gradient(135deg, #ef4444, #fbbf24)',
+    wikiTitle: 'Tzuyu',
     description: 'Tall, statuesque beauty with a cool demeanor and symmetrical, timeless features.',
     descriptionKr: '큰 키와 시크한 매력, 완벽한 대칭 얼굴의 비주얼.',
     traits: ['Cool', 'Tall', 'Symmetrical', 'Timeless'],
@@ -234,6 +247,7 @@ const IDOLS = [
     typicalAge: 28,
     emoji: '🐇',
     bgGradient: 'linear-gradient(135deg, #fb923c, #f472b6)',
+    wikiTitle: 'Nayeon',
     description: 'Iconic bunny-teeth smile, bubbly energy, and bright, girl-next-door charm.',
     descriptionKr: '토끼 같은 미소와 밝고 친근한 매력의 리더.',
     traits: ['Bright', 'Bubbly', 'Iconic', 'Girl-Next-Door'],
@@ -251,6 +265,7 @@ const IDOLS = [
     typicalAge: 28,
     emoji: '🎭',
     bgGradient: 'linear-gradient(135deg, #6366f1, #a855f7)',
+    wikiTitle: 'V_(singer)',
     description: 'Unconventionally handsome with deep eyes, boxy smile, and artsy, mysterious charisma.',
     descriptionKr: '깊은 눈빛과 박스미소, 독보적인 아티스틱한 매력.',
     traits: ['Mysterious', 'Artistic', 'Unique', 'Deep'],
@@ -267,6 +282,7 @@ const IDOLS = [
     typicalAge: 26,
     emoji: '🐰',
     bgGradient: 'linear-gradient(135deg, #22c55e, #6366f1)',
+    wikiTitle: 'Jungkook',
     description: 'The "golden maknae" — youthful charm, defined features, and multi-talented athlete visuals.',
     descriptionKr: '청초하고 건강한 매력의 황금막내.',
     traits: ['Youthful', 'Athletic', 'All-Rounder', 'Charming'],
@@ -283,6 +299,7 @@ const IDOLS = [
     typicalAge: 31,
     emoji: '🌷',
     bgGradient: 'linear-gradient(135deg, #f472b6, #6366f1)',
+    wikiTitle: 'Jin_(singer)',
     description: 'Worldwide handsome — broad shoulders, symmetrical face, and a warm, funny personality.',
     descriptionKr: '월드와이드 핸썸의 넓은 어깨와 대칭적인 미남.',
     traits: ['Handsome', 'Funny', 'Warm', 'Symmetrical'],
@@ -299,6 +316,7 @@ const IDOLS = [
     typicalAge: 29,
     emoji: '✨',
     bgGradient: 'linear-gradient(135deg, #fb923c, #a855f7)',
+    wikiTitle: 'Jimin',
     description: 'Soft, pretty features with expressive eyes and an emotional, sensual performance style.',
     descriptionKr: '부드럽고 감성적인 표현력과 섬세한 외모의 퍼포머.',
     traits: ['Soft', 'Expressive', 'Sensual', 'Emotional'],
@@ -316,6 +334,7 @@ const IDOLS = [
     typicalAge: 23,
     emoji: '🎨',
     bgGradient: 'linear-gradient(135deg, #f97316, #a855f7)',
+    wikiTitle: 'Hwang_Hyunjin',
     description: 'Model-like visuals, sharp jaw, and an artistic, poetic personality.',
     descriptionKr: '모델급 외모와 날카로운 턱선의 아티스트.',
     traits: ['Sharp', 'Artistic', 'Model', 'Intense'],
@@ -332,6 +351,7 @@ const IDOLS = [
     typicalAge: 23,
     emoji: '🌻',
     bgGradient: 'linear-gradient(135deg, #fbbf24, #f97316)',
+    wikiTitle: 'Felix_(singer)',
     description: 'Freckled, sunshine visuals with a deep voice contrast and irresistible warmth.',
     descriptionKr: '주근깨와 태양 같은 비주얼, 깊은 목소리의 서호주 출신 멤버.',
     traits: ['Sunny', 'Warm', 'Freckled', 'Energetic'],
@@ -349,6 +369,7 @@ const IDOLS = [
     typicalAge: 29,
     emoji: '🌊',
     bgGradient: 'linear-gradient(135deg, #22d3ee, #6366f1)',
+    wikiTitle: 'Lee_Taeyong',
     description: 'Sharp, edgy features with platinum visuals and fierce, captivating stage presence.',
     descriptionKr: '날카롭고 에지있는 외모와 강렬한 무대 퍼포먼스의 리더.',
     traits: ['Edgy', 'Sharp', 'Fierce', 'Leader'],
@@ -366,6 +387,7 @@ const IDOLS = [
     typicalAge: 30,
     emoji: '🔥',
     bgGradient: 'linear-gradient(135deg, #ef4444, #f59e0b)',
+    wikiTitle: 'Kai_(singer)',
     description: 'Bronzed, sculpted visuals with an animalistic charisma and sensual dance mastery.',
     descriptionKr: '브론즈 피부와 야성적인 카리스마의 댄서.',
     traits: ['Sculpted', 'Charismatic', 'Sensual', 'Bronze'],
@@ -382,6 +404,7 @@ const IDOLS = [
     typicalAge: 31,
     emoji: '🌙',
     bgGradient: 'linear-gradient(135deg, #818cf8, #f472b6)',
+    wikiTitle: 'Baekhyun',
     description: 'Compact, cute facial structure, puppy eyes, and cheerful, mischievous energy.',
     descriptionKr: '강아지 같은 눈매와 장난기 넘치는 활발한 매력.',
     traits: ['Cute', 'Puppy Eyes', 'Cheerful', 'Mischievous'],
@@ -399,6 +422,7 @@ const IDOLS = [
     typicalAge: 25,
     emoji: '🦊',
     bgGradient: 'linear-gradient(135deg, #a855f7, #ec4899)',
+    wikiTitle: 'Yeonjun',
     description: 'Fox-like eyes, androgynous beauty, and explosive dance energy with alt-pop aesthetics.',
     descriptionKr: '여우 같은 눈매와 중성적인 아름다움의 퍼포머.',
     traits: ['Fox-Like', 'Androgynous', 'Explosive', 'Alt'],
@@ -482,7 +506,7 @@ async function loadModels() {
 /* ===================================================================
    IMAGE RESIZE
    =================================================================== */
-function resizeImage(dataUrl, maxSize = 640) {
+function resizeImage(dataUrl, maxSize = 1280) {
   return new Promise((resolve) => {
     const img = new Image();
     img.onload = () => {
@@ -500,6 +524,23 @@ function resizeImage(dataUrl, maxSize = 640) {
     };
     img.src = dataUrl;
   });
+}
+
+/* ===================================================================
+   WIKIPEDIA PHOTO FETCH
+   =================================================================== */
+async function fetchWikiPhoto(wikiTitle) {
+  try {
+    const res = await fetch(
+      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wikiTitle)}`,
+      { headers: { Accept: 'application/json' } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.thumbnail?.source ?? null;
+  } catch {
+    return null;
+  }
 }
 
 /* ===================================================================
@@ -572,12 +613,20 @@ async function analyzeImage(dataUrl) {
     const img = new Image();
     img.onload = async () => {
       try {
-        // Detection
-        const detection = await faceapi
-          .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions({ inputSize: 416, scoreThreshold: 0.4 }))
+        // Detection — try progressively more sensitive settings for small/distant faces
+        let detection = await faceapi
+          .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions({ inputSize: 416, scoreThreshold: 0.3 }))
           .withFaceLandmarks(true)
           .withFaceExpressions()
           .withAgeAndGender();
+
+        if (!detection) {
+          detection = await faceapi
+            .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions({ inputSize: 608, scoreThreshold: 0.2 }))
+            .withFaceLandmarks(true)
+            .withFaceExpressions()
+            .withAgeAndGender();
+        }
 
         if (!detection) {
           showAnalysisError('No face detected. Please use a clear, well-lit photo with your face visible.');
@@ -735,8 +784,8 @@ function showResults(matches, faceData) {
   // ── TOP MATCH CARD ──────────────────────────────────────────
   const topCard = document.getElementById('top-match-card');
   topCard.innerHTML = `
-    <div class="match-avatar-area" style="background: ${top.bgGradient}">
-      <span class="match-emoji">${top.emoji}</span>
+    <div class="match-avatar-area" style="background: ${top.bgGradient}" id="top-avatar-area">
+      <span class="match-emoji" id="top-emoji">${top.emoji}</span>
     </div>
     <div class="match-body">
       <span class="match-group-badge" style="color:${top.groupColor}; border-color:${top.groupColor}55;">
@@ -770,8 +819,8 @@ function showResults(matches, faceData) {
     card.className = 'runner-up-card';
     card.style.animationDelay = `${i * 0.1}s`;
     card.innerHTML = `
-      <div class="ru-avatar" style="background: ${idol.bgGradient}">
-        <span>${idol.emoji}</span>
+      <div class="ru-avatar" style="background: ${idol.bgGradient}" id="ru-avatar-${i}">
+        <span class="ru-emoji" id="ru-emoji-${i}">${idol.emoji}</span>
       </div>
       <div class="ru-body">
         <div class="ru-name">${idol.name}</div>
@@ -797,6 +846,45 @@ function showResults(matches, faceData) {
       if (bar) bar.style.width = `${m.displayPct}%`;
     });
   }, 100);
+
+  // Load actual idol photos from Wikipedia asynchronously
+  loadIdolPhotos(top, runnerUps);
+}
+
+async function loadIdolPhotos(top, runnerUps) {
+  // Top match photo
+  if (top.wikiTitle) {
+    const url = await fetchWikiPhoto(top.wikiTitle);
+    if (url) {
+      const area = document.getElementById('top-avatar-area');
+      const emojiEl = document.getElementById('top-emoji');
+      if (area && emojiEl) {
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = top.name;
+        img.className = 'idol-real-photo';
+        img.onload = () => { emojiEl.style.display = 'none'; area.appendChild(img); };
+      }
+    }
+  }
+
+  // Runner-up photos
+  for (let i = 0; i < runnerUps.length; i++) {
+    const idol = runnerUps[i].idol;
+    if (!idol.wikiTitle) continue;
+    const url = await fetchWikiPhoto(idol.wikiTitle);
+    if (url) {
+      const area = document.getElementById(`ru-avatar-${i}`);
+      const emojiEl = document.getElementById(`ru-emoji-${i}`);
+      if (area && emojiEl) {
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = idol.name;
+        img.className = 'idol-real-photo';
+        img.onload = () => { emojiEl.style.display = 'none'; area.appendChild(img); };
+      }
+    }
+  }
 }
 
 /* ===================================================================
