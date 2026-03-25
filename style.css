@@ -531,13 +531,13 @@ header {
 }
 
 .idol-real-photo {
-  position: absolute;
-  inset: 0;
+  position: relative;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
   animation: fadeIn 0.4s ease;
+  z-index: 1;
 }
 
 .match-emoji {
@@ -774,4 +774,160 @@ header {
   .ru-avatar {
     font-size: 2rem;
   }
+}
+
+/* ===================================================================
+   FOOTER
+   =================================================================== */
+.site-footer {
+  margin-top: 3rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  background: #0c0c16;
+  padding: 2.5rem 1.25rem;
+}
+
+.footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.6rem;
+}
+
+.footer-desc {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover { color: var(--pink); }
+
+.footer-copy {
+  color: rgba(255,255,255,0.2);
+  font-size: 0.78rem;
+}
+
+/* ===================================================================
+   HOW IT WORKS (Home page)
+   =================================================================== */
+.how-it-works {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+.hiw-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: #f1f0ff;
+}
+
+.hiw-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hiw-step {
+  background: #12121e;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  padding: 1.1rem 0.75rem;
+  text-align: center;
+}
+
+.hiw-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hiw-step h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #f1f0ff;
+  margin-bottom: 0.4rem;
+}
+
+.hiw-step p {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.hiw-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding: 0.75rem 1rem;
+  background: rgba(168,85,247,0.06);
+  border: 1px solid rgba(168,85,247,0.15);
+  border-radius: 10px;
+}
+
+/* ===================================================================
+   IDOL GROUPS SECTION (Home page)
+   =================================================================== */
+.idol-groups-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+.group-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.group-badge {
+  padding: 0.35rem 0.85rem;
+  border-radius: 99px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: rgba(255,45,120,0.08);
+  border: 1px solid rgba(255,45,120,0.2);
+  color: #ff2d78;
+}
+
+/* ===================================================================
+   RESULT DISCLAIMER
+   =================================================================== */
+.result-disclaimer {
+  margin-top: 1.5rem;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.3);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.result-disclaimer a {
+  color: rgba(168,85,247,0.6);
+  text-decoration: underline;
 }
