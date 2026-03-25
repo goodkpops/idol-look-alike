@@ -830,6 +830,34 @@ header {
   font-size: 0.78rem;
 }
 
+.visitor-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,45,120,0.08);
+  border: 1px solid rgba(255,45,120,0.2);
+  border-radius: 99px;
+  padding: 0.4rem 1rem;
+  margin: 0.75rem auto 1rem;
+}
+
+.visitor-badge.hidden { display: none; }
+
+.visitor-icon { font-size: 1rem; }
+
+.visitor-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.visitor-count {
+  font-size: 0.95rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* ===================================================================
    HOW IT WORKS (Home page)
    =================================================================== */

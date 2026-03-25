@@ -429,6 +429,368 @@ const IDOLS = [
     expressionWeights: { neutral: 0.5, happy: 0.6, sad: 0.3, angry: 0.4, surprised: 0.5, fearful: 0.1, disgusted: 0.1 },
     ageWeight: [19, 27],
   },
+
+  // ── 전소미 ─────────────────────────────────────────────────────
+  {
+    id: 'somi',
+    name: 'Somi',
+    nameKr: '전소미',
+    group: 'Solo',
+    groupColor: '#f472b6',
+    gender: 'female',
+    typicalAge: 24,
+    emoji: '🌊',
+    bgGradient: 'linear-gradient(135deg, #f472b6, #38bdf8)',
+    wikiTitle: 'Jeon_Somi',
+    description: 'Half-Korean half-Canadian with bold features, irresistible charisma and powerful girl-crush energy.',
+    descriptionKr: '대담한 이목구비와 강렬한 걸크러쉬 매력의 솔로 아티스트.',
+    traits: ['Bold', 'Confident', 'Girl-Crush', 'Bright'],
+    expressionWeights: { neutral: 0.5, happy: 0.8, sad: 0.2, angry: 0.5, surprised: 0.6, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [19, 27],
+  },
+
+  // ── LE SSERAFIM ────────────────────────────────────────────────
+  {
+    id: 'sakura',
+    name: 'Sakura',
+    nameKr: '사쿠라',
+    group: 'LE SSERAFIM',
+    groupColor: '#f43f5e',
+    gender: 'female',
+    typicalAge: 27,
+    emoji: '🌸',
+    bgGradient: 'linear-gradient(135deg, #f43f5e, #fbbf24)',
+    wikiTitle: 'Miyawaki_Sakura',
+    description: 'Gentle, doll-like Japanese beauty with natural warmth and a loyal global fanbase.',
+    descriptionKr: '따뜻하고 인형 같은 일본인 멤버, 전 아이즈원 출신.',
+    traits: ['Gentle', 'Doll-Like', 'Natural', 'Warm'],
+    expressionWeights: { neutral: 0.5, happy: 0.8, sad: 0.3, angry: 0.2, surprised: 0.5, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [22, 30],
+  },
+  {
+    id: 'chaewon-lsf',
+    name: 'Chaewon',
+    nameKr: '채원',
+    group: 'LE SSERAFIM',
+    groupColor: '#f43f5e',
+    gender: 'female',
+    typicalAge: 25,
+    emoji: '🦅',
+    bgGradient: 'linear-gradient(135deg, #dc2626, #7c3aed)',
+    wikiTitle: 'Kim_Chae-won_(singer)',
+    description: 'Sharp charisma with a powerful girl-crush image and fierce, commanding stage presence.',
+    descriptionKr: '강렬한 걸크러쉬 이미지와 카리스마 넘치는 무대의 리더.',
+    traits: ['Fierce', 'Leader', 'Sharp', 'Charismatic'],
+    expressionWeights: { neutral: 0.7, happy: 0.5, sad: 0.2, angry: 0.6, surprised: 0.3, fearful: 0.1, disgusted: 0.2 },
+    ageWeight: [20, 28],
+  },
+  {
+    id: 'eunchae',
+    name: 'Eunchae',
+    nameKr: '은채',
+    group: 'LE SSERAFIM',
+    groupColor: '#f43f5e',
+    gender: 'female',
+    typicalAge: 20,
+    emoji: '☀️',
+    bgGradient: 'linear-gradient(135deg, #fb923c, #fbbf24)',
+    wikiTitle: 'Hong_Eun-chae',
+    description: 'Youthful sunshine energy, bright smile, and a lovable personality that wins over every crowd.',
+    descriptionKr: '밝고 사랑스러운 태양 같은 에너지의 막내.',
+    traits: ['Sunshine', 'Youthful', 'Bright', 'Lovable'],
+    expressionWeights: { neutral: 0.3, happy: 0.95, sad: 0.1, angry: 0.1, surprised: 0.6, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [16, 23],
+  },
+
+  // ── ILLIT ──────────────────────────────────────────────────────
+  {
+    id: 'wonhee',
+    name: 'Wonhee',
+    nameKr: '원희',
+    group: 'ILLIT',
+    groupColor: '#e879f9',
+    gender: 'female',
+    typicalAge: 18,
+    emoji: '🎀',
+    bgGradient: 'linear-gradient(135deg, #e879f9, #f472b6)',
+    wikiTitle: 'Wonhee',
+    description: 'Adorably expressive face with a soft, approachable charm and a signature eye-smile.',
+    descriptionKr: '사랑스러운 표정과 눈웃음이 매력적인 귀여운 비주얼.',
+    traits: ['Adorable', 'Expressive', 'Soft', 'Eye-Smile'],
+    expressionWeights: { neutral: 0.3, happy: 0.95, sad: 0.1, angry: 0.1, surprised: 0.6, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [15, 22],
+  },
+  {
+    id: 'minju-illit',
+    name: 'Minju',
+    nameKr: '민주',
+    group: 'ILLIT',
+    groupColor: '#e879f9',
+    gender: 'female',
+    typicalAge: 18,
+    emoji: '🌷',
+    bgGradient: 'linear-gradient(135deg, #c084fc, #818cf8)',
+    wikiTitle: 'Kim_Min-ju_(singer)',
+    description: 'Pure, elegant features with a calm and serene presence — naturally photogenic and refined.',
+    descriptionKr: '차분하고 우아한 분위기의 순수하고 사진발 잘 받는 비주얼.',
+    traits: ['Elegant', 'Pure', 'Serene', 'Refined'],
+    expressionWeights: { neutral: 0.7, happy: 0.6, sad: 0.3, angry: 0.1, surprised: 0.3, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [15, 22],
+  },
+
+  // ── BABYMONSTER ────────────────────────────────────────────────
+  {
+    id: 'ahyeon',
+    name: 'Ahyeon',
+    nameKr: '아현',
+    group: 'BABYMONSTER',
+    groupColor: '#ff6b35',
+    gender: 'female',
+    typicalAge: 19,
+    emoji: '👾',
+    bgGradient: 'linear-gradient(135deg, #ff6b35, #a855f7)',
+    wikiTitle: 'Ahyeon',
+    description: 'Mesmerizing stage presence with sharp, powerful eyes and outstanding vocal and rap versatility.',
+    descriptionKr: '날카롭고 강렬한 눈빛과 뛰어난 보컬·랩 실력의 멀티 아티스트.',
+    traits: ['Powerful', 'Versatile', 'Sharp', 'Intense'],
+    expressionWeights: { neutral: 0.6, happy: 0.5, sad: 0.3, angry: 0.6, surprised: 0.4, fearful: 0.1, disgusted: 0.2 },
+    ageWeight: [15, 23],
+  },
+  {
+    id: 'rora',
+    name: 'Rora',
+    nameKr: '로라',
+    group: 'BABYMONSTER',
+    groupColor: '#ff6b35',
+    gender: 'female',
+    typicalAge: 18,
+    emoji: '🌟',
+    bgGradient: 'linear-gradient(135deg, #f59e0b, #ff6b35)',
+    wikiTitle: 'Rora_(singer)',
+    description: 'Bright, star-like aura with youthful freshness and a naturally captivating smile.',
+    descriptionKr: '밝고 빛나는 아우라와 청순한 매력의 멤버.',
+    traits: ['Star-Like', 'Fresh', 'Bright', 'Captivating'],
+    expressionWeights: { neutral: 0.4, happy: 0.9, sad: 0.1, angry: 0.1, surprised: 0.6, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [14, 21],
+  },
+
+  // ── 피프티피프티 ────────────────────────────────────────────────
+  {
+    id: 'saena',
+    name: 'Saena',
+    nameKr: '세나',
+    group: 'FIFTY FIFTY',
+    groupColor: '#22d3ee',
+    gender: 'female',
+    typicalAge: 22,
+    emoji: '🎵',
+    bgGradient: 'linear-gradient(135deg, #22d3ee, #6366f1)',
+    wikiTitle: 'Fifty_Fifty',
+    description: 'Striking, girl-crush visuals with sharp features and a confident, cool aura.',
+    descriptionKr: '날카롭고 자신감 넘치는 걸크러쉬 비주얼.',
+    traits: ['Sharp', 'Cool', 'Confident', 'Girl-Crush'],
+    expressionWeights: { neutral: 0.7, happy: 0.5, sad: 0.2, angry: 0.4, surprised: 0.3, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [18, 26],
+  },
+
+  // ── QWER ──────────────────────────────────────────────────────
+  {
+    id: 'chodan',
+    name: 'Chodan',
+    nameKr: '조단',
+    group: 'QWER',
+    groupColor: '#84cc16',
+    gender: 'female',
+    typicalAge: 23,
+    emoji: '🎸',
+    bgGradient: 'linear-gradient(135deg, #84cc16, #22d3ee)',
+    wikiTitle: 'QWER_(band)',
+    description: 'Bold, rock-idol energy with strong features and an edgy, unconventional charm.',
+    descriptionKr: '강렬하고 엣지있는 락 아이돌 스타일의 개성 넘치는 비주얼.',
+    traits: ['Edgy', 'Bold', 'Rock', 'Unconventional'],
+    expressionWeights: { neutral: 0.5, happy: 0.6, sad: 0.3, angry: 0.6, surprised: 0.4, fearful: 0.1, disgusted: 0.2 },
+    ageWeight: [19, 27],
+  },
+
+  // ── 2NE1 ──────────────────────────────────────────────────────
+  {
+    id: 'cl',
+    name: 'CL',
+    nameKr: '씨엘',
+    group: '2NE1',
+    groupColor: '#8b5cf6',
+    gender: 'female',
+    typicalAge: 33,
+    emoji: '👊',
+    bgGradient: 'linear-gradient(135deg, #8b5cf6, #000000)',
+    wikiTitle: 'CL_(singer)',
+    description: 'The original queen of K-Pop swagger — fierce, bold, and undeniably magnetic.',
+    descriptionKr: '케이팝 스웨거의 원조 퀸 - 강렬하고 대담한 카리스마.',
+    traits: ['Fierce', 'Swag', 'Bold', 'Queen'],
+    expressionWeights: { neutral: 0.4, happy: 0.5, sad: 0.2, angry: 0.8, surprised: 0.3, fearful: 0.1, disgusted: 0.3 },
+    ageWeight: [26, 36],
+  },
+  {
+    id: 'dara',
+    name: 'Sandara Park',
+    nameKr: '산다라박',
+    group: '2NE1',
+    groupColor: '#8b5cf6',
+    gender: 'female',
+    typicalAge: 39,
+    emoji: '💜',
+    bgGradient: 'linear-gradient(135deg, #c084fc, #f472b6)',
+    wikiTitle: 'Sandara_Park',
+    description: 'Timeless, youthful beauty that defies age — bright, friendly, and endlessly charming.',
+    descriptionKr: '나이를 거스르는 동안과 밝고 친근한 매력의 영원한 아이돌.',
+    traits: ['Timeless', 'Youthful', 'Bright', 'Friendly'],
+    expressionWeights: { neutral: 0.4, happy: 0.9, sad: 0.1, angry: 0.1, surprised: 0.5, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [28, 42],
+  },
+
+  // ── 예나 ──────────────────────────────────────────────────────
+  {
+    id: 'yena',
+    name: 'Yena',
+    nameKr: '예나',
+    group: 'Solo',
+    groupColor: '#fbbf24',
+    gender: 'female',
+    typicalAge: 27,
+    emoji: '🐥',
+    bgGradient: 'linear-gradient(135deg, #fbbf24, #fb923c)',
+    wikiTitle: 'Choi_Yena',
+    description: 'Chick-like adorableness with an explosive bright smile and fun, quirky personality.',
+    descriptionKr: '병아리 같은 귀여움과 폭발적인 밝은 미소의 솔로 아티스트.',
+    traits: ['Adorable', 'Bright', 'Quirky', 'Fun'],
+    expressionWeights: { neutral: 0.2, happy: 0.95, sad: 0.1, angry: 0.1, surprised: 0.7, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [22, 30],
+  },
+
+  // ── BIGBANG ───────────────────────────────────────────────────
+  {
+    id: 'gdragon',
+    name: 'G-Dragon',
+    nameKr: '지드래곤',
+    group: 'BIGBANG',
+    groupColor: '#facc15',
+    gender: 'male',
+    typicalAge: 36,
+    emoji: '👑',
+    bgGradient: 'linear-gradient(135deg, #facc15, #1a1a1a)',
+    wikiTitle: 'G-Dragon',
+    description: 'The king of K-Pop — legendary fashion icon with one-of-a-kind charisma and artistry.',
+    descriptionKr: '전설적인 패션 아이콘이자 케이팝의 왕, 독보적인 아티스트.',
+    traits: ['Legendary', 'Iconic', 'Artistic', 'Fashion King'],
+    expressionWeights: { neutral: 0.7, happy: 0.5, sad: 0.4, angry: 0.5, surprised: 0.3, fearful: 0.1, disgusted: 0.2 },
+    ageWeight: [28, 40],
+  },
+  {
+    id: 'taeyang',
+    name: 'Taeyang',
+    nameKr: '태양',
+    group: 'BIGBANG',
+    groupColor: '#facc15',
+    gender: 'male',
+    typicalAge: 36,
+    emoji: '☀️',
+    bgGradient: 'linear-gradient(135deg, #f59e0b, #dc2626)',
+    wikiTitle: 'Taeyang',
+    description: 'Warm, earnest visuals with a soulful smile and sincere, heartfelt performance energy.',
+    descriptionKr: '따뜻하고 진심 어린 미소와 소울풀한 퍼포먼스의 아티스트.',
+    traits: ['Warm', 'Sincere', 'Soulful', 'Earnest'],
+    expressionWeights: { neutral: 0.4, happy: 0.8, sad: 0.4, angry: 0.3, surprised: 0.4, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [28, 40],
+  },
+  {
+    id: 'top',
+    name: 'T.O.P',
+    nameKr: '탑',
+    group: 'BIGBANG',
+    groupColor: '#facc15',
+    gender: 'male',
+    typicalAge: 37,
+    emoji: '🎩',
+    bgGradient: 'linear-gradient(135deg, #1e293b, #475569)',
+    wikiTitle: 'T.O.P_(rapper)',
+    description: 'Cold, brooding aesthetics with deep-set eyes and an enigmatic, cinematic presence.',
+    descriptionKr: '차갑고 신비로운 분위기의 깊은 눈빛을 가진 미남 래퍼.',
+    traits: ['Enigmatic', 'Brooding', 'Cold', 'Cinematic'],
+    expressionWeights: { neutral: 0.9, happy: 0.3, sad: 0.5, angry: 0.4, surprised: 0.2, fearful: 0.2, disgusted: 0.2 },
+    ageWeight: [29, 42],
+  },
+
+  // ── MONSTA X ──────────────────────────────────────────────────
+  {
+    id: 'kihyun',
+    name: 'Kihyun',
+    nameKr: '기현',
+    group: 'MONSTA X',
+    groupColor: '#06b6d4',
+    gender: 'male',
+    typicalAge: 30,
+    emoji: '🎤',
+    bgGradient: 'linear-gradient(135deg, #06b6d4, #0284c7)',
+    wikiTitle: 'Yoo_Kihyun',
+    description: 'Powerful vocal with a compact, clean-cut handsome face and sharp, expressive eyes.',
+    descriptionKr: '파워풀한 보컬과 단정하고 깔끔한 미남 비주얼.',
+    traits: ['Handsome', 'Powerful', 'Sharp', 'Clean-Cut'],
+    expressionWeights: { neutral: 0.5, happy: 0.7, sad: 0.3, angry: 0.4, surprised: 0.4, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [24, 34],
+  },
+  {
+    id: 'hyungwon',
+    name: 'Hyungwon',
+    nameKr: '형원',
+    group: 'MONSTA X',
+    groupColor: '#06b6d4',
+    gender: 'male',
+    typicalAge: 29,
+    emoji: '🌙',
+    bgGradient: 'linear-gradient(135deg, #1e40af, #06b6d4)',
+    wikiTitle: 'Chae_Hyungwon',
+    description: 'Tall, model-proportioned with sleepy-but-striking eyes and an effortlessly cool aura.',
+    descriptionKr: '모델 같은 비율과 졸린 듯 강렬한 눈빛의 쿨한 비주얼.',
+    traits: ['Model', 'Sleepy Eyes', 'Cool', 'Tall'],
+    expressionWeights: { neutral: 0.9, happy: 0.3, sad: 0.4, angry: 0.3, surprised: 0.2, fearful: 0.2, disgusted: 0.1 },
+    ageWeight: [23, 33],
+  },
+
+  // ── TWS (투어스) ───────────────────────────────────────────────
+  {
+    id: 'shinyu',
+    name: 'Shinyu',
+    nameKr: '신유',
+    group: 'TWS',
+    groupColor: '#7dd3fc',
+    gender: 'male',
+    typicalAge: 21,
+    emoji: '💙',
+    bgGradient: 'linear-gradient(135deg, #7dd3fc, #6366f1)',
+    wikiTitle: 'TWS_(group)',
+    description: 'Fresh, boyish charm with warm, approachable features and a bright, innocent energy.',
+    descriptionKr: '따뜻하고 친근한 이목구비의 풋풋하고 청순한 매력.',
+    traits: ['Fresh', 'Boyish', 'Warm', 'Innocent'],
+    expressionWeights: { neutral: 0.4, happy: 0.85, sad: 0.2, angry: 0.1, surprised: 0.5, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [17, 25],
+  },
+  {
+    id: 'dohoon',
+    name: 'Dohoon',
+    nameKr: '도훈',
+    group: 'TWS',
+    groupColor: '#7dd3fc',
+    gender: 'male',
+    typicalAge: 20,
+    emoji: '🌊',
+    bgGradient: 'linear-gradient(135deg, #38bdf8, #818cf8)',
+    wikiTitle: 'TWS_(group)',
+    description: 'Youthful, sea-like freshness with a soft face and natural, effortless good looks.',
+    descriptionKr: '소프트하고 자연스러운 외모의 청량한 매력.',
+    traits: ['Youthful', 'Soft', 'Natural', 'Fresh'],
+    expressionWeights: { neutral: 0.5, happy: 0.8, sad: 0.2, angry: 0.1, surprised: 0.5, fearful: 0.1, disgusted: 0.1 },
+    ageWeight: [16, 24],
+  },
 ];
 
 /* ===================================================================
@@ -938,6 +1300,28 @@ function showToast(msg) {
 }
 
 /* ===================================================================
+   VISITOR COUNTER
+   =================================================================== */
+async function trackVisits() {
+  const el = document.getElementById('visitor-count');
+  if (!el) return;
+  try {
+    const res = await fetch(
+      'https://api.counterapi.dev/v1/goodkpops/idol-look-alike/up',
+      { mode: 'cors' }
+    );
+    if (!res.ok) throw new Error('counter error');
+    const data = await res.json();
+    if (data.count != null) {
+      el.textContent = Number(data.count).toLocaleString();
+      el.closest('.visitor-badge')?.classList.remove('hidden');
+    }
+  } catch {
+    el.closest('.visitor-badge')?.remove();
+  }
+}
+
+/* ===================================================================
    INIT
    =================================================================== */
 async function init() {
@@ -1023,6 +1407,9 @@ async function init() {
   });
 
   document.getElementById('share-btn').addEventListener('click', shareResult);
+
+  // Track visitor count (non-blocking)
+  trackVisits();
 }
 
 // Start
